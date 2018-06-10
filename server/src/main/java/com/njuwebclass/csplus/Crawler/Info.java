@@ -1,0 +1,32 @@
+package com.njuwebclass.csplus.Crawler;
+
+// 表示 【课程，url】 【作业，url】
+public class Info {
+    private String name;
+    private String url;
+
+    public Info(String name, String url){
+        this.name = name;
+        this.url = url;
+    }
+
+    public void show(){
+        System.out.println(name+"  "+url);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+}
